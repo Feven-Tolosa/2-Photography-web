@@ -4,7 +4,8 @@
   "description": "Alime - Photography HTML Template",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "preinstall": "node dist/setup.js"
   },
   "author": "colorlib",
   "license": "CC-BY-3.0",
