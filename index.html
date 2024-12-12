@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="style.css" />
   <style>
   .classy-menu .classynav ul li a:hover{
-  color: #f8f5f4 !important;
+  color: #e55300 !important;
   
   }
   .alime-btn{
@@ -39,6 +39,13 @@
   }
 .single-instagram-item .instagram-hover-content{
    background-color: #e55300 !important;
+  }
+  #booking{
+    border: 1.5px solid #e55300;
+    &:hover{
+      background-color: #e55300;
+      color: #ffffff !important;
+    }
   }
   </style>
   </head>
@@ -77,11 +84,10 @@
                   <ul id="nav" >
                     <li ><a class="closeIcon" href="#home">Home</a></li>
                     <li ><a class="closeIcon" href="#about">About</a></li>
-                    <li ><a class="closeIcon" href="#services">Services</a></li>
                     <li ><a class="closeIcon" href="#gallery">Gallery</a></li>
-                    <li ><a class="closeIcon" href="#blog">Blog</a></li>
+                    <li ><a class="closeIcon" href="#blog">Blogs</a></li></li>
+                   <li ><a class="closeIcon" id="booking" href="#book">Book</a></li>
                     <li ><a class="closeIcon" href="#contact">Contact</a></li>
-                    <li ><a class="closeIcon" href="#book">Book</a></li>
                   </ul>
                 <!-- Nav End -->
               </div>
@@ -213,104 +219,43 @@
       </div>
     </div>
     <!-- About Us Area End -->
-
-
-     <!-- Start Services Section -->
-    <section id="services" class="ftco-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-9">
-            <div class="row">
-              <div class="col-md-5 heading-section ftco-animate pb-5">
-                <h2 class="m-4">Services</h2>
-                <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia. It is a paradisematic country.
-                </p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="media block-6 services d-block ftco-animate">
-                  <div class="icon">
-                    <span class="flaticon-video-camera"></span>
-                  </div>
-                  <div class="media-body">
-                    <h4 class="heading mb-3">
-                      Movies &amp; Advertising Videos
-                    </h4>
-                     <div class="single-portfolio-content">
-              <img src="img/bg-img/5.jpg" alt="" />
-              <div class="hover-content">
-                <a href="img/bg-img/5.jpg" class="portfolio-img">+</a>
-              </div>
-            </div>
-                    <p>
-                      A small river named Duden flows by their place and
-                      supplies it with the necessary regelialia. It is a
-                      paradisematic country, in which roasted parts of
-                      sentences.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="media block-6 services d-block ftco-animate">
-                  <div class="icon">
-                    <span class="flaticon-video-player"></span>
-                  </div>
-                  <div class="media-body">
-                    <h4 class="heading mb-3">Clip &amp;<br/> Music Videos</h4>
-                    <div class="single-portfolio-content">
-              <img src="img/bg-img/3.jpg" alt="" />
-              <div class="hover-content">
-                <a href="img/bg-img/3.jpg" class="portfolio-img">+</a>
-              </div>
-            </div>
-                    <p>
-                      A small river named Duden flows by their place and
-                      supplies it with the necessary regelialia. It is a
-                      paradisematic country, in which roasted parts of
-                      sentences.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="media block-6 services d-block ftco-animate">
-                  <div class="icon">
-                    <span class="flaticon-video-player-1"></span>
-                  </div>
-                  <div class="media-body">
-                    <h4 class="heading mb-3">Short Film Productions</h4>
-                      <div class="single-portfolio-content">
-              <img src="img/bg-img/10.jpg" alt="" />
-              <div class="hover-content">
-                <a href="img/bg-img/10.jpg" class="portfolio-img">+</a>
-              </div>
-            </div>
-                    <p>
-                      A small river named Duden flows by their place and
-                      supplies it with the necessary regelialia. It is a
-                      paradisematic country, in which roasted parts of
-                      sentences.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 d-flex align-items-stretch">
-            <div
-              class="img w-100"
-              style="background-image: url(./img/bg-img/36.jpg); background-repeat:no-repeat; width: 100%; height: auto;"
-            ></div>
-          </div>
+    <!-- Services(custom) -->
+    <section class="sercises">
+      <h2 class="wow fadeInUp m-5" data-wow-delay="100ms">Services</h2>
+      <div class="sectionitem">
+        <div>
+          <h4 style="text-align: center;" class="m-3">Mels</h4>
+          <a id="topbtn" href="#" class=" topbtn btn alime-btn mb-3 mb-sm-0 mr-4"
+                      >view more...</a>
+          <img src="./img/bg-img/21.jpg" alt=""></div>
+        <div><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+          <a href="#" class="btn alime-btn mb-3 mb-sm-0 mr-4"
+                      >view more...</a>
+        </div>
+      </div>
+       <div class="sectionitem">
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+          <a href="#" class="btn alime-btn mb-3 mb-sm-0 mr-4"
+                      >view more...</a>
+        </div>
+        <div>
+          <h4 style="text-align: center;">kids</h4>
+          <a id="topbtn"  href="#" class="btn alime-btn mb-3 mb-sm-0 mr-4"
+                      >view more...</a>
+          <img src="./img/bg-img/21.jpg" alt=""></div>
+      </div>
+       <div class="sectionitem">
+        <div>        <h4 style="text-align: center;">Genfo</h4>
+          <a id="topbtn" href="#" class="btn alime-btn mb-3 mb-sm-0 mr-4"
+                      >view more...</a>
+          <img src="./img/bg-img/21.jpg" alt=""></div>
+        <div><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+          <a href="#" class="btn alime-btn mb-3 mb-sm-0 mr-4"
+                      >view more...</a>
         </div>
       </div>
     </section>
-    <!-- End Services Section -->
-
     <!-- Gallery Area Start -->
     <div class="alime-portfolio-area section-padding-80 clearfix" id="gallery">
       <div class="container-fluid">
@@ -623,12 +568,16 @@
     </div>
     <!-- Gallery Area End -->
 
-  
      <!-- Blog Area Start -->
     <div class="alime-blog-area section-padding-80-0 mb-70" id="blog">
         <div class="container">
+           <div class="mb-4">
+           <h2 class="wow fadeInUp" data-wow-delay="100ms">
+                Blogs
+              </h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam nesciunt nihil, neque aliquid quasi temporibus iure.</p>
+          </div>
             <div class="row">
-
                 <!-- Single Blog Area -->
                 <div class="col-12 col-lg-6">
                     <div class="single-post-area wow fadeInUpBig" data-wow-delay="100ms">
@@ -797,18 +746,9 @@
     <!-- Blog Area End -->
 
      <!-- start testimony-section -->
-     <section class="ftco-section testimony-section" id="testimonial">
+     <section class="ftco-section testimony-section mb-4" id="testimonial">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
-          <!-- <div class="col-md-4 heading-section ftco-animate">
-            <h2 class="subheading">Testimony</h2>
-            <h3 class="mb-4" style>Our satisfied customer says</h3>
-            <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in
-            </p>
-          </div> -->
         </div>
         <div class="mb-4">
            <h2 class="wow fadeInUp" data-wow-delay="100ms">
@@ -985,7 +925,7 @@
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-4 heading-section text-center ftco-animate">
-            <h2 style="margin:10% auto 0 auto;"> Contact Us</h2>
+            <h2 class="mb-4 mt-5 pt-5"> Contact Us</h2>
           </div>
         </div>
 
@@ -1045,7 +985,7 @@
         </div>
         <div class="row justify-content-center mb-5 pb-3" id="book">
           <div class="col-md-4 heading-section text-center ftco-animate">
-            <h2 class="mb-4 mt-5 pt-5">Book</h2>
+            <h2 class="mb-4 mt-5 pt-5">Book Now</h2>
             <p>
               A small river named Duden flows by their place and supplies it.
             </p>
@@ -1225,18 +1165,6 @@
     <!-- **** All JS Files ***** -->
     <!-- jQuery 2.2.4 -->
     <script>
-
-    return this.each(function () {
-      // navbar toggler
-      navbarToggler.on("click", function () {
-        navToggler.toggleClass("active");
-        classyMenu.toggleClass("menu-on");
-      });
-      // close icon
-      colseIcon.on("click", function () {
-        classyMenu.removeClass("menu-on");
-        navToggler.removeClass("active");
-      });})
 </script>
     <script src="js/jquery.min.js"></script>
     <!-- Popper -->
