@@ -1,3 +1,10 @@
+body {
+  background-color: #003b43 !important;
+  color: #ffffff !important;
+}
+.header-area {
+  /* background-color: #003b43 !important; */
+}
 .classy-nav-container {
   position: relative;
   z-index: 1;
@@ -15,7 +22,6 @@
   color: #232323;
   display: inline-block;
 }
-
 .classy-nav-container a:hover,
 .classy-nav-container a:focus {
   -webkit-transition-duration: 500ms;
@@ -163,41 +169,6 @@
   display: none;
 }
 
-/* Close Icon */
-.classycloseIcon {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  z-index: 12;
-  display: none;
-}
-.classycloseIcon .cross-wrap {
-  width: 26px;
-  height: 26px;
-  cursor: pointer;
-  position: relative;
-}
-.classycloseIcon .cross-wrap span {
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 2px;
-  border-radius: 6px;
-  background: #232323;
-}
-.classycloseIcon .cross-wrap span.top {
-  top: 12px;
-  left: 0;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-.classycloseIcon .cross-wrap span.bottom {
-  bottom: 12px;
-  left: 0;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-
 /* navbarToggler */
 .classy-navbar-toggler {
   border: none;
@@ -211,8 +182,8 @@
 }
 .classy-navbar-toggler .navbarToggler span {
   position: relative;
-  /* 707070 */
-  background-color: #707070;
+  /* #707070 */
+  background-color: transparent;
   border-radius: 3px;
   display: block;
   height: 3px;
@@ -236,9 +207,7 @@
   transform: rotate3d(0, 0, 1, -45deg);
   top: -8px;
 }
-.container .classy-navbar .classy-menu .classynav #nav {
-  background-color: transparent;
-}
+
 .classynav ul li .megamenu {
   position: absolute;
   width: 100%;
@@ -782,20 +751,18 @@
   display: block;
 }
 .breakpoint-on .classy-navbar .classy-menu {
-  background-color: #ffffff;
-  position: fixed;
+  background-color: transparent;
+  position: absolute;
   top: 0;
-  left: -340px;
+  left: -300px;
   z-index: 9999;
-  width: 320px;
+  width: 300px;
   height: 100%;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   padding: 0;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   display: block;
-  overflow-x: hidden;
-  overflow-y: scroll;
 }
 .breakpoint-on .classy-navbar .classy-menu.menu-on {
   left: 0;
@@ -882,8 +849,17 @@
   border-bottom: 1px solid #f2f4f8;
 }
 .breakpoint-on .classynav > ul > li > a {
-  background-color: #f2f4f8;
+  background-color: transparent;
+  /* #f2f4f8 */
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: #ffffff !important;
+  text-shadow: #000000;
+  &:hover {
+    /* box-shadow: none; */
+    touch-action: manipulation;
+    background: #e55300;
+  }
+  /* ************************************************************ */
 }
 .breakpoint-on .classynav ul li ul.dropdown li ul li {
   margin-left: 15px;

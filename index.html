@@ -17,6 +17,30 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css" />
+  <style>
+  .classy-menu .classynav ul li a:hover{
+  color: #f8f5f4 !important;
+  
+  }
+  .alime-btn{
+    border-color: #e55300 !important;
+    &:hover{
+      background-color: #e55300 !important;
+    }
+  }
+  .line{
+    background-color: #e55300 !important;
+  }
+  .single-post-area .post-catagory{
+    background-color: #e55300 !important;
+  }
+  #scrollUp{
+    background-color: #e55300 !important;
+  }
+.single-instagram-item .instagram-hover-content{
+   background-color: #e55300 !important;
+  }
+  </style>
   </head>
 
   <body>
@@ -24,12 +48,6 @@
     <div id="preloader">
       <div class="loader"></div>
     </div>
-    <!-- /Preloader -->
-
-    <!-- Top Search Form Area -->
-        </div> 
-      </div>
-    </div> 
 
     <!-- Header Area Start -->
     <header class="header-area">
@@ -52,23 +70,18 @@
               </div>
 
               <!-- Menu -->
+               <!-- class="classy-menu" -->
               <div class="classy-menu">
-                <!-- Menu Close Button -->
-                <div class="classycloseIcon">
-                  <div class="cross-wrap">
-                    <span class="top"></span><span class="bottom"></span>
-                  </div>
-                </div>
                 <!-- Nav Start -->
-                <div class="classynav">
-                  <ul id="nav">
-                    <!-- class="active" -->
-                    <li ><a href="#home">Home</a></li>
-                    <li ><a href="#about">About</a></li>
-                    <li ><a href="#gallery">Gallery</a></li>
-                    <li ><a href="#blog">Blog</a></li>
-                    <li ><a href="#contact">Contact</a></li>
-                    <li ><a href="#book">Book</a></li>
+                <div class="classynav ">
+                  <ul id="nav" >
+                    <li ><a class="closeIcon" href="#home">Home</a></li>
+                    <li ><a class="closeIcon" href="#about">About</a></li>
+                    <li ><a class="closeIcon" href="#services">Services</a></li>
+                    <li ><a class="closeIcon" href="#gallery">Gallery</a></li>
+                    <li ><a class="closeIcon" href="#blog">Blog</a></li>
+                    <li ><a class="closeIcon" href="#contact">Contact</a></li>
+                    <li ><a class="closeIcon" href="#book">Book</a></li>
                   </ul>
                 <!-- Nav End -->
               </div>
@@ -108,7 +121,7 @@
                     <a href="#about" class="btn alime-btn mb-3 mb-sm-0 mr-4"
                       >About</a
                     >
-                    <a href="#contact" class="btn alime-btn mb-3 mb-sm-0 mr-4"
+                    <a href="#book" class="btn alime-btn mb-3 mb-sm-0 mr-4"
                       >Book now</a
                     >
                   </div>
@@ -144,7 +157,7 @@
                      <a href="#about" class="btn alime-btn mb-3 mb-sm-0 mr-4"
                       >About</a
                     >
-                    <a href="#contact" class="btn alime-btn mb-3 mb-sm-0 mr-4"
+                    <a href="#book" class="btn alime-btn mb-3 mb-sm-0 mr-4"
                       >Book now</a
                     >
                   </div>
@@ -163,9 +176,9 @@
         <div class="row align-items-center">
           <div class="col-12 col-lg-6">
             <div class="about-us-content mb-80">
-              <h3 class="wow fadeInUp" data-wow-delay="100ms">
+              <h2 class="wow fadeInUp" data-wow-delay="100ms">
                 We Live For Passion
-              </h3>
+              </h2>
               <div class="line wow fadeInUp" data-wow-delay="200ms"></div>
               <p class="wow fadeInUp" data-wow-delay="300ms">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -177,7 +190,7 @@
                 eiusmod tempor incididunt ut labore et do sunt explicabo. Nemo
                 enim ipsam et dolore magnam aliquam quaerat voluptatem.
               </p>
-              <a href="#contact" class="btn alime-btn mb-3 mb-sm-0 mr-4" style="color: black;"
+              <a href="#contact" class="btn alime-btn mb-3 mb-sm-0 mr-4" style="color: rgb(255, 255, 255); "
                       >Contact me</a
                     >
             </div>
@@ -189,7 +202,7 @@
             >
               <img src="img/bg-img/17.jpg" alt="" />
               <div class="video-icon">
-                <a
+                <a style="background-color: #e55300 !important;"
                   href="https://www.youtube.com/watch?v=sSakBz_eYzQ"   class="video-play-btn"
                   ><i class="arrow_triangle-right"></i
                 ></a>
@@ -209,7 +222,7 @@
           <div class="col-md-9">
             <div class="row">
               <div class="col-md-5 heading-section ftco-animate pb-5">
-                <h2 class="mb-4">Photography Services</h2>
+                <h2 class="m-4">Services</h2>
                 <p>
                   A small river named Duden flows by their place and supplies it
                   with the necessary regelialia. It is a paradisematic country.
@@ -223,9 +236,15 @@
                     <span class="flaticon-video-camera"></span>
                   </div>
                   <div class="media-body">
-                    <h3 class="heading mb-3">
+                    <h4 class="heading mb-3">
                       Movies &amp; Advertising Videos
-                    </h3>
+                    </h4>
+                     <div class="single-portfolio-content">
+              <img src="img/bg-img/5.jpg" alt="" />
+              <div class="hover-content">
+                <a href="img/bg-img/5.jpg" class="portfolio-img">+</a>
+              </div>
+            </div>
                     <p>
                       A small river named Duden flows by their place and
                       supplies it with the necessary regelialia. It is a
@@ -241,7 +260,13 @@
                     <span class="flaticon-video-player"></span>
                   </div>
                   <div class="media-body">
-                    <h3 class="heading mb-3">Clip &amp; Music Videos</h3>
+                    <h4 class="heading mb-3">Clip &amp;<br/> Music Videos</h4>
+                    <div class="single-portfolio-content">
+              <img src="img/bg-img/3.jpg" alt="" />
+              <div class="hover-content">
+                <a href="img/bg-img/3.jpg" class="portfolio-img">+</a>
+              </div>
+            </div>
                     <p>
                       A small river named Duden flows by their place and
                       supplies it with the necessary regelialia. It is a
@@ -257,7 +282,13 @@
                     <span class="flaticon-video-player-1"></span>
                   </div>
                   <div class="media-body">
-                    <h3 class="heading mb-3">Short Film Productions</h3>
+                    <h4 class="heading mb-3">Short Film Productions</h4>
+                      <div class="single-portfolio-content">
+              <img src="img/bg-img/10.jpg" alt="" />
+              <div class="hover-content">
+                <a href="img/bg-img/10.jpg" class="portfolio-img">+</a>
+              </div>
+            </div>
                     <p>
                       A small river named Duden flows by their place and
                       supplies it with the necessary regelialia. It is a
@@ -272,88 +303,13 @@
           <div class="col-md-3 d-flex align-items-stretch">
             <div
               class="img w-100"
-              style="background-image: url(./img/bg-img/14.jpg); background-repeat:no-repeat; width: 100%; height: auto;"
+              style="background-image: url(./img/bg-img/36.jpg); background-repeat:no-repeat; width: 100%; height: auto;"
             ></div>
           </div>
         </div>
       </div>
     </section>
     <!-- End Services Section -->
-
-
-
-    <!-- Why Choose Us Area Start -->
-    <section class="why-choose-us-area bg-gray section-padding-80-0 clearfix">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div
-              class="section-heading text-center wow fadeInUp"
-              data-wow-delay="100ms"
-            >
-              <h2>Why Choose Us</h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <!-- Single Why Choose Area -->
-          <div class="col-md-6 col-lg-4">
-            <div
-              class="why-choose-us-content text-center mb-80 wow fadeInUp"
-              data-wow-delay="100ms"
-            >
-              <div class="chosse-us-icon">
-                <i class="fa fa-film" aria-hidden="true"></i>
-              </div>
-              <h4>High Quality Images</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur isicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                elit, sed do eiusmod te
-              </p>
-            </div>
-          </div>
-
-          <!-- Single Why Choose Area -->
-          <div class="col-md-6 col-lg-4">
-            <div
-              class="why-choose-us-content text-center mb-80 wow fadeInUp"
-              data-wow-delay="300ms"
-            >
-              <div class="chosse-us-icon">
-                <i class="fa fa-pencil" aria-hidden="true"></i>
-              </div>
-              <h4>Abundant Experience</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur isicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                elit, sed do eiusmod te
-              </p>
-            </div>
-          </div>
-
-          <!-- Single Why Choose Area -->
-          <div class="col-md-6 col-lg-4">
-            <div
-              class="why-choose-us-content text-center mb-80 wow fadeInUp"
-              data-wow-delay="500ms"
-            >
-              <div class="chosse-us-icon">
-                <i class="fa fa-camera" aria-hidden="true"></i>
-              </div>
-              <h4>Modern Equipments</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur isicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                elit, sed do eiusmod te
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Why Choose  us Area End -->
 
     <!-- Gallery Area Start -->
     <div class="alime-portfolio-area section-padding-80 clearfix" id="gallery">
@@ -363,12 +319,7 @@
             <!-- Projects Menu -->
             <div class="alime-projects-menu">
               <div class="portfolio-menu text-center">
-                <!-- <button class="btn active" data-filter="*">All</button>
-                <button class="btn" data-filter=".human">Human</button>
-                <button class="btn" data-filter=".nature">Nature</button>
-                <button class="btn" data-filter=".country">Country</button>
-                <button class="btn" data-filter=".video">Video</button> -->
-                <h1 class="p-5">Gallery</h1>
+                <h2 class="p-5">Gallery</h2>
               </div>
             </div>
           </div>
@@ -665,7 +616,7 @@
 
         <div class="row">
           <div class="col-12 text-center wow fadeInUp" data-wow-delay="700ms">
-            <a href="#" class="btn alime-btn btn-2 mt-15">View More</a>
+            <a href="#" class="btn alime-btn btn-2 mt-15" style="color: #ffffff;">View More</a>
           </div>
         </div>
       </div>
@@ -846,20 +797,50 @@
     <!-- Blog Area End -->
 
      <!-- start testimony-section -->
-    <!-- <section class="ftco-section testimony-section" id="testimonial">
+     <section class="ftco-section testimony-section" id="testimonial">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-4 heading-section ftco-animate">
-            <span class="subheading">Testimony</span>
-            <h2 class="mb-4">Our satisfied customer says</h2>
+          <!-- <div class="col-md-4 heading-section ftco-animate">
+            <h2 class="subheading">Testimony</h2>
+            <h3 class="mb-4" style>Our satisfied customer says</h3>
             <p>
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts. Separated
               they live in
             </p>
-          </div>
+          </div> -->
         </div>
-        <div class="row ftco-animate">
+        <div class="mb-4">
+           <h2 class="wow fadeInUp" data-wow-delay="100ms">
+                Testimony
+              </h2>
+            <h4 class="mb-5">Our satisfied customer says</h4>
+          </div>
+
+         <div class="testimonial-items">
+          <div class="first-testimonial">
+            <div class="post-thumbnail"><img src="./img/bg-img/24.jpg" alt=""></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quo odio autem ipsa cumque illum delectus laudantium.</p>
+            <h4>Someone in some position</h4>
+          </div>
+          <div class="first-testimonial">
+            <div><img src="./img/bg-img/20.jpg" alt=""></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quo odio autem ipsa cumque illum delectus laudantium.</p>
+            <h4>Someone in some position</h4>
+          </div>
+          <div class="first-testimonial">
+            <div><img src="./img/bg-img/23.jpg" alt=""></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quo odio autem ipsa cumque illum delectus laudantium.</p>
+            <h4>Someone in some position</h4>
+          </div>
+          <div class="first-testimonial">
+            <div><img src="./img/bg-img/51.jpg" alt=""></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quo odio autem ipsa cumque illum delectus laudantium.</p>
+            <h4>Someone in some position</h4>
+          </div>
+         </div>
+        <!-- class="row ftco-animate" -->
+        <div>
           <div class="col-md-12">
             <div class="carousel-testimony owl-carousel">
               <div class="item">
@@ -995,7 +976,7 @@
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
 
 
 
@@ -1004,10 +985,7 @@
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-4 heading-section text-center ftco-animate">
-            <h2 class="mb-4">Contact Us</h2>
-            <p>
-              A small river named Duden flows by their place and supplies it.
-            </p>
+            <h2 style="margin:10% auto 0 auto;"> Contact Us</h2>
           </div>
         </div>
 
@@ -1020,7 +998,7 @@
                 <span class="icon-map-signs"></span>
               </div>
               <div>
-                <h3 class="mb-4">Address</h3>
+                <h4 class="mb-4">Address</h4>
                 <p>198 West 21th Street, Suite 721 New York NY 10016</p>
               </div>
             </div>
@@ -1033,8 +1011,8 @@
                 <span class="icon-phone2"></span>
               </div>
               <div>
-                <h3 class="mb-4">Contact Number</h3>
-                <p><a href="tel://1234567920">+ 1235 2355 98</a></p>
+                <h4 class="mb-4">Contact Number</h4>
+                <p><a href="tel://1234567920" style="color: aliceblue;">+ 1235 2355 98</a></p>
               </div>
             </div>
           </div>
@@ -1046,8 +1024,8 @@
                 <span class="icon-paper-plane"></span>
               </div>
               <div>
-                <h3 class="mb-4">Email Address</h3>
-                <p><a href="mailto:info@yoursite.com">info@mercy.com</a></p>
+                <h4 class="mb-4">Email Address</h4>
+                <p><a href="mailto:info@yoursite.com" style="color: aliceblue;">info@mercy.com</a></p>
               </div>
             </div>
           </div>
@@ -1059,15 +1037,15 @@
                 <span class="icon-globe"></span>
               </div>
               <div>
-                <h3 class="mb-4">Website</h3>
-                <p><a href="#">mercy.com</a></p>
+                <h4 class="mb-4">Website</h4>
+                <p><a href="#" style="color: aliceblue;">mercy.com</a></p>
               </div>
             </div>
           </div>
         </div>
         <div class="row justify-content-center mb-5 pb-3" id="book">
           <div class="col-md-4 heading-section text-center ftco-animate">
-            <h2 class="mb-4">Book</h2>
+            <h2 class="mb-4 mt-5 pt-5">Book</h2>
             <p>
               A small river named Duden flows by their place and supplies it.
             </p>
@@ -1100,7 +1078,7 @@
                 <textarea name="Message" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
               </div>
               <div class="form-group">
-                <input type="submit" name="submit" value="Send Message" class="btn alime-btn btn-2 mt-15">
+                <input type="submit" name="submit" value="Send Message" class="btn alime-btn btn-2 mt-15" style="color: #ffffff;">
                 <!-- btn btn-primary py-3 px-5 -->
               </div>
             </form>
@@ -1246,6 +1224,20 @@
 
     <!-- **** All JS Files ***** -->
     <!-- jQuery 2.2.4 -->
+    <script>
+
+    return this.each(function () {
+      // navbar toggler
+      navbarToggler.on("click", function () {
+        navToggler.toggleClass("active");
+        classyMenu.toggleClass("menu-on");
+      });
+      // close icon
+      colseIcon.on("click", function () {
+        classyMenu.removeClass("menu-on");
+        navToggler.removeClass("active");
+      });})
+</script>
     <script src="js/jquery.min.js"></script>
     <!-- Popper -->
     <script src="js/popper.min.js"></script>
